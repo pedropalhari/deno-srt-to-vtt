@@ -2,6 +2,8 @@
 
 There's a very useful library for node that converts `.srt` subtitles to `.vtt` ones. This is my Deno version of it. Not copied from the node, just inspired by the existence of it.
 
+No dependencies, obviously.
+
 ## Installation
 
 ## Findings
