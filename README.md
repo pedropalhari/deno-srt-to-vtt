@@ -4,7 +4,16 @@ There's a very useful library for node that converts `.srt` subtitles to `.vtt` 
 
 No dependencies, obviously.
 
-## Installation
+## Installation & usage
+
+```typescript
+import { srtToVtt } from "https://raw.githubusercontent.com/pedropalhari/deno-srt-to-vtt/0.2/mod.ts";
+
+let srtSub = await Deno.readFile("SUB.srt");
+let vttSubGenerated = srtToVtt(srtSub);
+
+console.log({ vttSubGenerated });
+```
 
 ## Findings
 
