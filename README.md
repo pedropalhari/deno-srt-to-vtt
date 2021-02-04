@@ -7,7 +7,7 @@ No dependencies, obviously.
 ## Installation & usage
 
 ```typescript
-import { srtToVtt } from "https://raw.githubusercontent.com/pedropalhari/deno-srt-to-vtt/0.2/mod.ts";
+import { srtToVtt } from "https://raw.githubusercontent.com/pedropalhari/deno-srt-to-vtt/0.3/mod.ts";
 
 let srtSub = await Deno.readFile("SUB.srt");
 let vttSubGenerated = srtToVtt(srtSub);
